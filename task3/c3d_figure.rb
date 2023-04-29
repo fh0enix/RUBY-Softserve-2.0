@@ -1,5 +1,3 @@
-require_relative 'connector'
-
 class C3DFigure
   def initialize(area, height)
     @area = area
