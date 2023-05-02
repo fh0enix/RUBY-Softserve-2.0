@@ -1,11 +1,12 @@
 require_relative 'connector'
 
 class NotificationBoard
-  def initialize(*args)
-    @message = args
+  def initialize
+    @message = []
   end
 
-  def show_message
+  def show_message(*args)
+    @message = args
     display_msg
   end
 
