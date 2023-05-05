@@ -25,7 +25,7 @@ bundler install
 ### 4. Run my app in terminal
 
 ```bash
- ruby runer.rb
+ ruby runner.rb
 ```
 
 ## 5. 🧡 Enjoy)
