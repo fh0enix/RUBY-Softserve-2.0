@@ -2,7 +2,7 @@
 
 require_relative 'connector'
 
-puts 'task6 => Students'
+puts 'task6 => ToDoList'
 
 tdl = ToDoList.new
 tdl.add_task(ToDoItem.new("Hello I'm new task"))
