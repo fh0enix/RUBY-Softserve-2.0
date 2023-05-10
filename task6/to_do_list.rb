@@ -18,7 +18,7 @@ class ToDoList
     end
   end
 
-  def change_status(index, status_number)
-    @tasks[index].switch_status(status_number)
+  def change_status(index, status_index)
+    @tasks[index].switch_status(status_index)
   end
 end

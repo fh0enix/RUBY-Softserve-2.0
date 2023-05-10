@@ -9,8 +9,8 @@ class ToDoItem
     @status = STATUS[0]
   end
 
-  def switch_status(number)
-    @status = STATUS[number]
+  def switch_status(index)
+    @status = STATUS[index]
   end
 
   def to_s
